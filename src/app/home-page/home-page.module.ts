@@ -18,6 +18,6 @@ import { SharedModule } from '../shared/shared.module';
 })
 export class HomePageModule {
   constructor(){
-    console.log('home module loaded')
+    // console.log('home module loaded')
   }
  }
