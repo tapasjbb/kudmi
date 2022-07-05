@@ -1,0 +1,99 @@
+.how-it-work-section{
+    background: url(../../../assets/how-work-bg.png) fixed;
+    text-align: center;
+    padding: 70px 0;
+    overflow: hidden;
+    padding-bottom: 48px;
+
+    h1{
+        color: #fff;
+        margin-bottom: 30px !important;
+        border-bottom: 1px solid #fff;
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        padding-bottom: 5px;
+    }
+
+    .read-more{
+        width: 900px;
+    margin: 0 auto;
+    background: #0000006b;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+
+    p{
+        color: #fff;
+        margin: 0;
+    }
+    }
+}
+
+.example-small-box, .example-large-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+  }
+  
+  .example-small-box {
+    // height: 300px;
+    width: 300px;
+    margin: 20px auto;
+    // margin-top: 20px !important;
+  }
+  
+  .example-large-box {
+    // height: 400px;
+    width: 700px;
+    margin: 20px auto;
+    // margin-top: 20px !important;
+  }
+
+  .tab-head{
+      margin-top: 20px;
+      
+  }
+
+  .tab-head ::ng-deep .mat-tab-label-container .mat-tab-label-content{
+      color: #fff;
+  }
+
+
+.content-wrapper{
+    .content-item img{
+        border-radius: 10px;
+        border: 2px solid #fff;
+        box-shadow: -8px -4px 5px 0px #2e2f61;
+    }
+
+    p{
+        margin-top: 10px;
+        color: #fff;
+    }
+}
+
+.items-list{
+    margin: 0;
+}
+
+.items-list li{
+    list-style: none;
+    padding-bottom: 15px;
+    text-align: left;
+    color: #fff;
+
+    i{
+        padding-right: 10px;
+    }
+
+    a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+    }
+}
